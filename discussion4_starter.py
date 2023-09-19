@@ -1,22 +1,32 @@
 class Rectangle():
+    def __init__ (self, width, height):
+        self.width = width
+        self.height = height
+
     # Create the constructor "__init__" method
     # Arguments: width (an ingeter), height (an integer)
     # 
     # It sets an instance variable, "width" to the passed argument, width
     # It sets an instance variable, "height" to the passed argument, height
 
-    # YOUR CODE HERE
+    def __str__(self):
+        return "A rectangle with width" + str(width) + "and height" + str(height)
+    
+    def verify_input:
+        if width and height > 0:
+            return True
+        else: 
+            return False
 
-
-
-    # Create the "__str__" method
-    #
+    
     # It returns a string, 
     #       "A rectangle with width ____ and height ____"
 
     # YOUR CODE HERE
 
 
+    
+    
 
     # Create the "verify_input" method
     #
