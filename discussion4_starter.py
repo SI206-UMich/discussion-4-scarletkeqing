@@ -25,7 +25,12 @@ class Rectangle():
         else:
             return "Invalid input"
         
-    
+    def perimeter (self):
+            verify_input()
+            if verify_input == False:
+                return self.width + self.height + self.width + self height
+            else:
+                return "Invalid input"
 
 
 
