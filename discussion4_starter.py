@@ -14,19 +14,18 @@ class Rectangle():
 
     def area (self):
         self.verify_input()
-        if self.verify_input == True:
+        if self.verify_input() == True:
             return self.width * self.height
         else:
             return "Invalid input"
         
     def perimeter (self):
         self.verify_input()
-        if self.verify_input == True:
+        if self.verify_input() == True:
             return self.width + self.height + self.width + self.height
         else:
             return "Invalid input"
-
-
+        
 def main():
     r = Rectangle(10, 10)
     print(r)
